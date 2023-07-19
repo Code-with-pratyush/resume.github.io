@@ -304,6 +304,38 @@
                 left:200px;
             
         }
+        @media (max-width:500px){
+            .container{
+                margin: 0;
+                width: 100%;
+                padding: 0;
+            }
+            .container .header .logo img{
+                display: none;
+            }
+            .container .header{
+                height:200px;
+            }
+            .container .header .header-text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .container .header .header-text h1{
+                font-size: 40px;
+            }
+
+            .content .left-area .contact{
+                margin-top: 10px;
+            }
+            .work .work-group span{
+                position: static;
+            }
+            .education .edu-group span{
+                position: static;
+            }
+        }
     }
     </style>
     
